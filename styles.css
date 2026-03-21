@@ -48,6 +48,11 @@ button {
     border-radius: 10px;
 }
 
+button:hover {
+    background-color: #0963f5;
+    cursor: pointer;
+}
+
 
 /* CLASES */
 
@@ -81,6 +86,31 @@ button {
     width: 450px;
 }
 
+.cards {
+    display: flex;
+    justify-content: center;
+    margin: 10px 90px 100px 90px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.card div {
+    height: 120px;
+    width: 120px;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+}
+
+.card p {
+    color: #6d6d6d;
+}
+
 
 /* IDENTIFICADORES */
 
@@ -88,4 +118,11 @@ button {
     width: 400px;
     height: auto;
     border-radius: 30px;
+}
+
+#info-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
 }
